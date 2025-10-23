@@ -32,7 +32,7 @@ Rec2Assign maximize profit and the assignment success rate by balancing competit
 ```
 
 ## Datasets
-You can access the well pre-processed datasets from [[Google Drive]](https://github.com/Yi107/Dataset-for-PCOM), then place the downloaded contents under the correspond dataset folder such as `./dataset/dd`.
+You can access the well pre-processed datasets from [[Github]](https://github.com/Yi107/Dataset-for-PCOM), then place the downloaded contents under the correspond dataset folder such as `./dataset/dd`.
 
 ## Quick start
 1. Download datasets and place them under `./dataset`
