@@ -7,7 +7,7 @@
 Rec2Assign maximize profit and the assignment success rate by balancing competition among workers, while simultaneously ensuring fairness.
 
 <p align="center">
-<img src="./images/framework.pdf" height = "300" alt="" align=center />
+<img src="./images/framework.png" height = "300" alt="" align=center />
 </p>
 
 - Rec2Assign is composed of two main components: (1) Task Recommendation, which aims to recommend an optimal task set for each worker aims to increase the profit. We first compute the Valid Task Set for all workers based on spatiotemporal distribution and introduce a Multi-Stage Probabilistic Recommendation (MSPR) Algorithm, which iteratively recommends tasks based on workers’ willingness for maximizing the overall profit. Next, we apply a Supply-Demand Flow Balancing (SDFB) Algorithm to improve assignment success rate by constructing a Supply-Demand Transfer Graph that identifies the most suitable task regions for each worker to balance competition among workers. (2) Task Assignment, which aims to assign an optimal task to each worker in order to maximize profit while maximizing the consistency of assignment success rates across workers. First, each worker selects a task set based on their willingness from the recommended set. We then employ the Fairness-aware algorithm, which prioritizes tasks assignment to workers with lower assignment success rates while still maintaining high overall profit.
